@@ -20,34 +20,34 @@ def display_home_page():
 
 def display_subjects_page():
     st.header("Subjects")
-    subjects = ["Mathematics", "Physics", "Chemistry", "Biology"]
+    subjects = ["Python", "Android", "Java", "Computer Networks"]
 
     selected_subject = st.selectbox("Select a subject", subjects)
 
-    if selected_subject == "Mathematics":
+    if selected_subject == "Python":
         display_mathematics_material()
-    elif selected_subject == "Physics":
+    elif selected_subject == "Android":
         display_physics_material()
-    elif selected_subject == "Chemistry":
+    elif selected_subject == "Java":
         display_chemistry_material()
-    elif selected_subject == "Biology":
+    elif selected_subject == "Computer Networks":
         display_biology_material()
 
-def display_mathematics_material():
-    st.subheader("Mathematics Study Material")
-    st.write("Insert mathematics study material here.")
+def display_Python_material():
+    st.subheader("Python Study Material")
+    st.write("Insert Python study material here.")
 
-def display_physics_material():
-    st.subheader("Physics Study Material")
-    st.write("Insert physics study material here.")
+def display_Android_material():
+    st.subheader("Android Study Material")
+    st.write("Insert Android study material here.")
 
-def display_chemistry_material():
-    st.subheader("Chemistry Study Material")
-    st.write("Insert chemistry study material here.")
+def display_Java_material():
+    st.subheader("Java Study Material")
+    st.write("Insert Java study material here.")
 
-def display_biology_material():
-    st.subheader("Biology Study Material")
-    st.write("Insert biology study material here.")
+def display_Computer_Network_material():
+    st.subheader("Computer Network Study Material")
+    st.write("Insert Computer Network study material here.")
 
 def display_about_page():
     st.header("About")
